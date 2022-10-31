@@ -26,10 +26,6 @@ const UserForm = (props) => {
                 <label>Password: </label>
                 <input type="text" onChange={ (e) => setPassword(e.target.value) } />
             </div>
-            <div>
-                <label>Confirm Password: </label>
-                <input type="text" onChange={ (e) => confirmPassword(e.target.value) } />
-            </div>
             <input type="submit" value="Create User" />
         </form>
     );
