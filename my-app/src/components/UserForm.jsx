@@ -17,8 +17,6 @@ const UserForm = (props) => {
     const createUser = (e) => {
         e.preventDefault();
         const newUser = { firstName, lastName, email, password, confirmPassword };
-
-        
         console.log("Welcome", newUser);
         setHasBeenSubmitted(true);
     };
